@@ -1,10 +1,13 @@
 # python-bottle
 
+![App](/assets/banner.png)
+
 ## Install bottle
 ```
 pip install bottle
 ```
 
+## Setup Virtual Env (develop)
 create a virtualenv first:
 ```
 $ virtualenv develop                # Create virtual environment
@@ -27,6 +30,11 @@ run(host='localhost', port=8080, debug=True)
 ## Run App
 ```
 (develop) $ python main.py
+```
+
+## Stop Virtual Env
+```
+deactivate
 ```
 
 source: https://bottlepy.org/docs/dev/tutorial.html
